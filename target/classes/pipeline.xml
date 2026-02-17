@@ -1,0 +1,5 @@
+<pipeline>
+    <step op="gaussianBlur"/>
+    <step op="brightnessContrast" brightness="12" contrast="1.10"/>
+    <step op="sharpen"/>
+</pipeline>
